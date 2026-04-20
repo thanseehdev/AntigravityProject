@@ -121,7 +121,7 @@ function App() {
               <div className="hidden md:block h-4 w-px bg-zinc-200"></div>
               <span className="text-[9px] font-bold uppercase tracking-[0.3em] text-zinc-400">Precision Engineered Since 1989</span>
             </div>
-            
+
             <div className="flex items-center gap-10 text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-400">
               <a href="#" className="hover:text-casio-blue transition-colors">Archives</a>
               <a href="#" className="hover:text-casio-blue transition-colors">Legal</a>

@@ -9,7 +9,7 @@ export default function Features() {
       <FadeIn>
         <div className="text-center mb-24 md:mb-32">
           <span className="text-accent-gold font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">Capabilities</span>
-          <h2 className="text-4xl md:text-7xl font-bold tracking-tighter text-casio-blue">Engineering <br className="hidden md:block"/> Perfection.</h2>
+          <h2 className="text-4xl md:text-7xl font-bold tracking-tighter text-zinc-300">Engineering <br className="hidden md:block" /> Perfection.</h2>
         </div>
       </FadeIn>
 

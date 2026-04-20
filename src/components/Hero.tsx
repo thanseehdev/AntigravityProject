@@ -16,18 +16,18 @@ export default function Hero() {
   return (
     <section className="relative w-full min-h-screen lg:h-[200vh] z-10 lg:pointer-events-none">
       <div className="lg:sticky top-0 w-full h-screen flex flex-col items-center justify-center text-center px-6">
-        
+
         <FadeIn>
           <div className="inline-flex items-center gap-2 px-6 py-2 bg-casio-blue/5 border border-casio-blue/10 rounded-full mb-12 backdrop-blur-md">
             <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-casio-blue">The Timeless Icon</span>
           </div>
-          
-          <h1 className="text-5xl sm:text-7xl lg:text-[10rem] font-bold tracking-tighter text-casio-blue leading-[0.9] mb-12">
-            Design <br className="hidden sm:block"/> <span className="text-zinc-300">Simplified.</span>
+
+          <h1 className="text-5xl sm:text-7xl lg:text-[10rem] font-bold tracking-tighter text-zinc-300 leading-[0.9] mb-12">
+            Design <br className="hidden sm:block" /> <span className="text-zinc-300">Simplified.</span>
           </h1>
-          
-          <p className="text-xs sm:text-sm md:text-base max-w-sm sm:max-w-xl text-zinc-500 font-medium uppercase tracking-[0.2em] leading-relaxed mx-auto">
-            From the streets of Tokyo to the world. <br className="hidden sm:block"/> The F-91W remains the absolute standard of precision.
+
+          <p className="text-xs sm:text-sm md:text-base max-w-sm sm:max-w-xl text-zinc-400 font-medium uppercase tracking-[0.2em] leading-relaxed mx-auto">
+            From the streets of Tokyo to the world. <br className="hidden sm:block" /> The F-91W remains the absolute standard of precision.
           </p>
         </FadeIn>
 

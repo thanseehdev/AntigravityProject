@@ -22,10 +22,10 @@ export default function Video() {
         </div>
       </FadeIn>
 
-      <div className="relative aspect-video w-full max-w-7xl rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-zinc-50 border-8 border-white shadow-2xl group flex items-center justify-center">
-        <img 
-          src="/hero_f91w.png" 
-          alt="Heritage Visual" 
+      <div className="relative rounded-sm aspect-video w-full max-w-7xl  overflow-hidden  shadow-2xl group flex items-center justify-center">
+        <img
+          src="/hero_f91w.png"
+          alt="Heritage Visual"
           className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000"
           onError={(e) => { e.currentTarget.style.display = 'none'; }}
         />

@@ -18,8 +18,8 @@ export default function Story() {
       <FadeIn>
         <div className="text-center md:max-w-4xl">
           <span className="text-accent-gold font-bold tracking-[0.4em] uppercase text-[10px] mb-12 block">The Philosophy</span>
-          <h2 className="text-4xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-casio-blue mb-16 leading-[1]">
-             Utility <br className="hidden md:block"/> Elevated.
+          <h2 className="text-4xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-zinc-300 mb-16 leading-[1]">
+            Utility <br className="hidden md:block" /> Elevated.
           </h2>
           <div className="w-16 h-px bg-zinc-200 mx-auto mb-16"></div>
           <p className="text-zinc-400 font-medium uppercase tracking-[0.2em] text-[10px] sm:text-[11px] max-w-sm mx-auto leading-relaxed">

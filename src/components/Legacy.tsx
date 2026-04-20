@@ -9,7 +9,7 @@ export default function Legacy() {
         <FadeIn>
           <div className="mb-24 md:mb-32">
             <span className="text-accent-gold font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">The Legend</span>
-            <h2 className="text-4xl md:text-8xl font-bold tracking-tighter text-casio-blue">Generational <br className="hidden md:block" /> Impact.</h2>
+            <h2 className="text-4xl md:text-8xl font-bold tracking-tighter text-zinc-300">Generational <br className="hidden md:block" /> Impact.</h2>
           </div>
         </FadeIn>
 
@@ -28,7 +28,7 @@ export default function Legacy() {
                 </div>
               </div>
               <div className="px-4">
-                <h4 className="text-3xl font-bold tracking-tight text-casio-blue mb-4 leading-none">Global Presence.</h4>
+                <h4 className="text-3xl font-bold tracking-tight text-zinc-300 mb-4 leading-none">Global Presence.</h4>
                 <p className="text-sm text-zinc-400 font-medium leading-relaxed max-w-sm">
                   Worn by everyone from iconic athletes to engineering masters. The most democratic watch in existence.
                 </p>
@@ -50,7 +50,7 @@ export default function Legacy() {
                 </div>
               </div>
               <div className="px-4">
-                <h4 className="text-3xl font-bold tracking-tight text-casio-blue mb-4 leading-none">Engineering Core.</h4>
+                <h4 className="text-3xl font-bold tracking-tight text-zinc-300 mb-4 leading-none">Engineering Core.</h4>
                 <p className="text-sm text-zinc-400 font-medium leading-relaxed max-w-sm">
                   Standard issue for those who demand precision. A reliable companion in every environment.
                 </p>
