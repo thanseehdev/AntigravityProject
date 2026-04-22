@@ -9,12 +9,21 @@
     scroll-behavior: smooth;
   }
 
+  * {
+    caret-color: transparent;
+  }
+
   body {
     @apply bg-dark-bg text-white antialiased;
     font-family: 'Poppins', 'Inter', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply uppercase tracking-tighter font-bold;
   }
 }
@@ -23,7 +32,11 @@
   .btn-neon {
     @apply bg-neon-green text-black px-8 py-3 rounded-md font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:shadow-neon hover:scale-105 active:scale-95;
   }
-  
+
+  * {
+    caret-color: transparent;
+  }
+
   .section-padding {
     @apply py-24 md:py-32 px-6 md:px-12 lg:px-24;
   }
