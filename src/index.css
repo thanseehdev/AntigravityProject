@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +10,22 @@
   }
 
   body {
-    @apply bg-casio-bg text-black antialiased;
+    @apply bg-dark-bg text-white antialiased;
+    font-family: 'Poppins', 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply uppercase tracking-tighter font-bold;
+  }
+}
+
+@layer components {
+  .btn-neon {
+    @apply bg-neon-green text-black px-8 py-3 rounded-md font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:shadow-neon hover:scale-105 active:scale-95;
+  }
+  
+  .section-padding {
+    @apply py-24 md:py-32 px-6 md:px-12 lg:px-24;
   }
 }
 

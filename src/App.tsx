@@ -75,32 +75,32 @@ function App() {
   });
 
   return (
-    <div className="w-full relative font-sans bg-casio-bg text-premium-black selection:bg-casio-blue selection:text-white antialiased overflow-x-hidden">
+    <div className="w-full relative font-sans bg-dark-bg text-white selection:bg-neon-green selection:text-black antialiased overflow-x-hidden">
 
       {/* Dynamic Background Accents */}
       <div className="fixed inset-0 z-0 pointer-events-none">
-        <div className="absolute top-[-20%] right-[-10%] w-[60%] h-[60%] bg-electric-blue/5 blur-[120px] rounded-full"></div>
-        <div className="absolute bottom-[-20%] left-[-10%] w-[60%] h-[60%] bg-accent-gold/5 blur-[120px] rounded-full"></div>
+        <div className="absolute top-[-20%] right-[-10%] w-[60%] h-[60%] bg-neon-green/5 blur-[120px] rounded-full"></div>
+        <div className="absolute bottom-[-20%] left-[-10%] w-[60%] h-[60%] bg-white/5 blur-[120px] rounded-full"></div>
       </div>
 
       {/* Adaptive Canvas Container */}
       <div className="fixed inset-0 w-full h-screen z-0 pointer-events-none">
         <canvas
           ref={canvasRef}
-          className="w-full h-full object-contain lg:object-cover"
+          className="w-full h-full object-contain lg:object-cover opacity-80"
         />
       </div>
 
-      <nav className="fixed top-0 w-full z-50 flex justify-between items-center py-6 md:py-8 px-6 md:px-12 lg:px-24 bg-white/30 backdrop-blur-xl border-b border-white/20">
+      <nav className="fixed top-0 w-full z-50 flex justify-between items-center py-6 md:py-8 px-6 md:px-12 lg:px-24 bg-black/50 backdrop-blur-xl border-b border-white/10">
         <div className="flex items-center gap-4">
-          <span className="text-xl font-bold tracking-tighter text-casio-blue">CASIO</span>
-          <div className="h-4 w-px bg-zinc-300 mx-2"></div>
-          <span className="text-[10px] font-black uppercase tracking-widest text-accent-gold">F-91W Heritage</span>
+          <span className="text-xl font-black tracking-tighter text-white italic">CASIO</span>
+          <div className="h-4 w-px bg-white/20 mx-2"></div>
+          <span className="text-[10px] font-black uppercase tracking-widest text-neon-green">F-91W Heritage</span>
         </div>
         <div className="hidden lg:flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em]">
-          <a href="#" className="hover:text-electric-blue transition-colors">Legend</a>
-          <a href="#" className="hover:text-electric-blue transition-colors">Refinement</a>
-          <a href="#" className="hover:text-electric-blue transition-colors">Acquisition</a>
+          <a href="#" className="hover:text-neon-green transition-colors">Legend</a>
+          <a href="#" className="hover:text-neon-green transition-colors">Refinement</a>
+          <a href="#" className="hover:text-neon-green transition-colors">Acquisition</a>
         </div>
       </nav>
 
@@ -114,21 +114,21 @@ function App() {
         <Pricing />
 
         {/* Premium Minimalist Footer */}
-        <footer className="w-full py-12 px-6 md:px-12 lg:px-24 border-t border-zinc-100 bg-white relative z-30">
+        <footer className="w-full py-16 px-6 md:px-12 lg:px-24 border-t border-white/5 bg-black relative z-30">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-center md:text-left">
-              <span className="text-xl font-bold tracking-tighter text-casio-blue uppercase">Casio</span>
-              <div className="hidden md:block h-4 w-px bg-zinc-200"></div>
-              <span className="text-[9px] font-bold uppercase tracking-[0.3em] text-zinc-400">Precision Engineered Since 1989</span>
+              <span className="text-xl font-black tracking-tighter text-white uppercase">Casio</span>
+              <div className="hidden md:block h-4 w-px bg-white/10"></div>
+              <span className="text-[9px] font-bold uppercase tracking-[0.3em] text-subtext">Precision Engineered Since 1989</span>
             </div>
 
-            <div className="flex items-center gap-10 text-[9px] font-bold uppercase tracking-[0.2em] text-zinc-400">
-              <a href="#" className="hover:text-casio-blue transition-colors">Archives</a>
-              <a href="#" className="hover:text-casio-blue transition-colors">Legal</a>
-              <a href="#" className="hover:text-casio-blue transition-colors">Privacy</a>
+            <div className="flex items-center gap-10 text-[9px] font-bold uppercase tracking-[0.2em] text-subtext">
+              <a href="#" className="hover:text-neon-green transition-colors">Archives</a>
+              <a href="#" className="hover:text-neon-green transition-colors">Legal</a>
+              <a href="#" className="hover:text-neon-green transition-colors">Privacy</a>
             </div>
 
-            <div className="text-[9px] font-bold uppercase tracking-widest text-zinc-300">
+            <div className="text-[9px] font-bold uppercase tracking-widest text-white/30">
               <span>© 2024 TOKYO / REF_593</span>
             </div>
           </div>

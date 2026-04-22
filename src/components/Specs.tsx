@@ -4,12 +4,12 @@ import { FadeIn } from './FadeIn';
 
 export default function Specs() {
   return (
-    <section className="w-full py-24 md:py-48 px-6 md:px-12 lg:px-24 relative z-20">
+    <section className="w-full section-padding relative z-20">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <FadeIn>
           <div className="text-center mb-24">
-            <span className="text-accent-gold font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">Specifications</span>
-            <h2 className="text-4xl md:text-7xl font-bold tracking-tighter text-zinc-300">Technical <br className="hidden md:block" /> Narrative.</h2>
+            <span className="text-neon-green font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">Specifications</span>
+            <h2 className="text-4xl md:text-8xl font-black tracking-tighter text-white uppercase leading-[0.9]">Technical <br className="hidden md:block" /> Narrative.</h2>
           </div>
         </FadeIn>
 
@@ -22,9 +22,9 @@ export default function Specs() {
             { label: 'CRYSTAL', value: 'RESIN_PX' },
             { label: 'ILLUM', value: 'GREEN_LED' },
           ].map((spec, i) => (
-            <FadeIn key={i} delay={i * 0.05} className="flex justify-between items-end border-b border-zinc-100 pb-6 group">
-              <span className="text-zinc-400 font-bold uppercase tracking-[0.3em] text-[9px] group-hover:text-accent-gold transition-colors">{spec.label}</span>
-              <span className="text-xl md:text-2xl font-bold tracking-tighter text-zinc-300">{spec.value}</span>
+            <FadeIn key={i} delay={i * 0.05} className="flex justify-between items-end border-b border-white/10 pb-6 group hover:border-neon-green/50 transition-colors">
+              <span className="text-subtext font-bold uppercase tracking-[0.3em] text-[9px] group-hover:text-neon-green transition-colors">{spec.label}</span>
+              <span className="text-xl md:text-3xl font-black tracking-tighter text-white group-hover:text-neon-green transition-colors">{spec.value}</span>
             </FadeIn>
           ))}
         </div>

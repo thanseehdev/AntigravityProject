@@ -5,11 +5,11 @@ import { FadeIn } from './FadeIn';
 
 export default function Features() {
   return (
-    <section className="w-full py-24 md:py-48 px-6 md:px-12 lg:px-24 flex flex-col items-center relative z-20">
+    <section className="w-full section-padding flex flex-col items-center relative z-20">
       <FadeIn>
         <div className="text-center mb-24 md:mb-32">
-          <span className="text-accent-gold font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">Capabilities</span>
-          <h2 className="text-4xl md:text-7xl font-bold tracking-tighter text-zinc-300">Engineering <br className="hidden md:block" /> Perfection.</h2>
+          <span className="text-neon-green font-bold tracking-[0.4em] uppercase text-[10px] mb-6 block">Capabilities</span>
+          <h2 className="text-4xl md:text-8xl font-black tracking-tighter text-white uppercase">Engineering <br className="hidden md:block" /> Perfection.</h2>
         </div>
       </FadeIn>
 
@@ -20,12 +20,12 @@ export default function Features() {
           { title: 'Resin Armor', detail: 'Impact-absorbing shell designed for extreme utility.', icon: <Shield /> },
         ].map((item, i) => (
           <FadeIn key={i} delay={i * 0.1}>
-            <div className="flex flex-col p-10 md:p-12 bg-white rounded-3xl border border-zinc-100 shadow-2xl shadow-zinc-200/50 hover:scale-[1.02] transition-all group">
-              <div className="w-14 h-14 bg-casio-bg rounded-2xl flex items-center justify-center text-casio-blue mb-8 group-hover:bg-casio-blue group-hover:text-white transition-all shadow-inner">
+            <div className="flex flex-col p-10 md:p-12 bg-dark-card rounded-xl border border-white/5 hover:border-neon-green/30 hover:shadow-neon transition-all group hover:-translate-y-2">
+              <div className="w-16 h-16 bg-white/5 rounded-lg flex items-center justify-center text-white mb-8 group-hover:bg-neon-green group-hover:text-black transition-all">
                 {item.icon}
               </div>
-              <h4 className="text-2xl font-bold tracking-tight text-casio-blue mb-4 leading-none">{item.title}</h4>
-              <p className="text-sm text-zinc-400 font-medium leading-relaxed">{item.detail}</p>
+              <h4 className="text-2xl font-black tracking-tighter text-white mb-4 leading-none uppercase group-hover:text-neon-green transition-colors">{item.title}</h4>
+              <p className="text-sm text-subtext font-medium leading-relaxed">{item.detail}</p>
             </div>
           </FadeIn>
         ))}

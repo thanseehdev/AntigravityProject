@@ -7,18 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        'casio-blue': '#003366', // Deep Luxury Navy
-        'casio-soft-blue': '#2B4A7E',
-        'casio-bg': '#F8F9FA', // Soft Porcelain
-        'premium-black': '#1A1A1A',
-        'premium-white': '#FFFFFF',
-        'premium-gray': '#E9ECEF',
-        'accent-gold': '#C5A059', // Metallic Gold
-        'electric-blue': '#00B4D8', // Vibrant Accent
+        'neon-green': '#a3ff12',
+        'dark-bg': '#000000',
+        'dark-card': '#111111',
+        'subtext': '#bfbfbf',
+        'casio-blue': '#003366', // Keeping for compatibility if needed elsewhere
+        'electric-blue': '#00B4D8',
       },
       fontFamily: {
-        sans: ['Inter', 'SF Pro Display', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'Poppins', 'SF Pro Display', 'sans-serif'],
+      },
+      boxShadow: {
+        'neon': '0 0 15px rgba(163, 255, 18, 0.3)',
+        'neon-strong': '0 0 25px rgba(163, 255, 18, 0.5)',
       }
     },
   },
